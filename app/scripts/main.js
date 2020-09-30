@@ -7,7 +7,7 @@ if(!PIXI.utils.isWebGLSupported()) {
 PIXI.utils.sayHello(type);
 
 // Create the application window
-let App = new Application({width:800, height:800});
+let App = new PIXI.Application({width:800, height:800});
 
 app.renderer.backgroundColor = 0x000000;
 
