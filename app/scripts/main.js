@@ -1,10 +1,11 @@
+import * as Alias from "../scripts/Alias.js";
 let type = "WebGL";
 if(!PIXI.utils.isWebGLSupported()) {
     type = "canvas";
 }
 PIXI.utils.sayHello(type);
 
-let app = new PIXI.Application({width:700, height:800});
+let app = new Alias.Application({width:700, height:800});
 
 app.renderer.backgroundColor = 0x000000;
 
