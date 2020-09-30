@@ -1,5 +1,5 @@
 // Imports
-import * as PIXI from 'pixi.js';
+import * as PIXI from 'pixi.js'
 
 // Setup the application
 let type = "WebGL";
