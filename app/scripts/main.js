@@ -18,5 +18,6 @@ app.renderer.view.style.display = "block";              // Set how the backgroun
 app.renderer.autoResize = true;                         // Allow resizing of the window
 app.renderer.resize(window.innerWidth, window.innerHeight);         // Set the size to be fullscreen
 
+alert("Hello World");
 
 document.body.appendChild(App.view);
