@@ -8,6 +8,8 @@ let app = new PIXI.Application({width:700, height:800});
 
 app.renderer.backgroundColor = 0x000000;
 
+alert("Hello World");
+
 app.renderer.view.style.position = "absolute";          // Set the position of the background
 app.renderer.view.style.display = "block";              // Set how the background is displayed
 app.renderer.autoResize = true;                         // Allow resizing of the window
